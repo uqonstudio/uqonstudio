@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useEffect } from "react";
-import bg_landing from "../../public/assets/landing/bg.webp";
+import bg_landing from "../../public/assets/landing/new_bg.webp";
 import profile_picture from "../../public/assets/landing/pp.jpg";
 import Link from "next/link";
 

@@ -51,7 +51,7 @@ export default function Navbar() {
               scroll={true}
               className="btn btn-ghost normal-case text-xl"
             >
-              Paul Maier
+              Uqon Studio
             </Link>
           </div>
           <div className="navbar-center hidden md:flex">

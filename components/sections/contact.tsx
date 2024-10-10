@@ -1,6 +1,6 @@
 import HeroiconsWrapper from "../heroiconsWrapper";
 import Image from "next/image";
-import bg_contacts from "../../public/assets/contacts/bg.webp";
+import bg_contacts from "../../public/assets/contacts/new_bg.webp";
 
 export type ContactProps = {
   title: string;
