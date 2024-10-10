@@ -6,6 +6,7 @@ import Landing, { LandingProps } from "@/components/sections/landing";
 import Work, { Project, WorkProps } from "@/components/sections/work";
 import About, { AboutProps, interest as Interest, interestElement as InterestElement } from "@/components/sections/about";
 import Contact, { ContactProps } from "@/components/sections/contact";
+import AudioPlayer from '@/components/audioplayer';
 // import { doc, getDoc } from "firebase/firestore/lite";
 // import { db } from "@/lib/firebase";
 
@@ -207,6 +208,7 @@ export default function Index({
         <About {...aboutProps} />
         <Work {...workProps} />
         <Contact {...contactProps} />
+        <AudioPlayer />
         <Footer year={year} />
       </main>
     </>
